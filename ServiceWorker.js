@@ -1,8 +1,3 @@
-self.addEventListener('install', function (e) {
-    console.log('[Service Worker] Install');
-    
-});
-
 const cacheName = "HealSpace-Breathwork-1.0.0";
 const contentToCache = [
     "Build/healspace-webgl.loader.js",
